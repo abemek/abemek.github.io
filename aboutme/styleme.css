@@ -1,0 +1,38 @@
+
+body{
+    background-color: 	#232B2B	
+}
+
+strong{
+    color: yellow
+}
+
+ul,ol,p,span{
+    color: #FFFFFF
+}
+
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126, 158, 190)
+}
+
+a{
+    color: yellow;
+    text-decoration: none
+}
+
+.firstcharacter {
+    font-size: 25px;
+  }
+
+.moviedesc{
+    color: yellow;
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+}
+.moviedescdetail{
+    text-indent: 20px;
+}
+
+
