@@ -1,14 +1,20 @@
 
 body{
-    background-color: 	#232B2B	
+    background-color: 	#232B2B;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+header{
+    text-align: center
 }
 
 strong{
-    color: yellow
+    color: lightsalmon
 }
 
 ul,ol,p,span{
-    color: #FFFFFF
+    color: #dcd4d4
 }
 
 h1,h2{
@@ -17,7 +23,7 @@ h1,h2{
 }
 
 a{
-    color: yellow;
+    color: lightsalmon;
     text-decoration: none
 }
 
@@ -26,7 +32,7 @@ a{
   }
 
 dt{
-    color: yellow;
+    color: lightgreen;
     font-weight: bold;
     font-size: 17px;
 }
