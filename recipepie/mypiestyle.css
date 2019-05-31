@@ -1,0 +1,73 @@
+body {
+    background-image: url("images/silverware.jpg");
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h1 {
+    color: #A4A400;
+    display: inline;
+    background-color: #F0F0F0;  
+    background-origin: border-box;
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Helvetica', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22pt;
+    font: bold;
+    letter-spacing: 0.25em;
+}
+section {
+    
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    display: inline;
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Helvetica', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+    font: normal;
+    letter-spacing: 0.25em;
+}
+
+a{
+    color:  #A4A400;
+}
+
+abbr{
+    text-decoration: #404040;
+    text-decoration-line: underline;
+}
+
+pre{
+    font-family: monospace;
+    float: right;
+}
+
+blockquote{
+    font-style: italic;
+    background-color:  #FFFFA8 ;
+}
+
+ul{
+    list-style-image: url("images/pie_icon.gif")
+}
+
+#pid{
+    text-align: right;
+}
+.replaced span {
+    display: none;
+    text-decoration: line-through;
+}
+
+.replaced:after {
+	content: " pie";
+}
