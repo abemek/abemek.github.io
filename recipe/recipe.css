@@ -4,7 +4,36 @@ body{
     color: #404040;
     font-family: Georgia, Garamond, serif;
 }
+h1 {
+    color: #A4A400;
+    display: inline;
+    background-color: #F0F0F0;  
+    background-origin: border-box;
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Helvetica', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22pt;
+    font: bold;
+    letter-spacing: 0.25em;
+}
+section {
+    
+    position: relative;
+    top: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center
+}
 
+h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    display: inline;
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Helvetica', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+    font: normal;
+    letter-spacing: 0.25em;
+}
 a{
     color: #A4A400;
 }
@@ -16,24 +45,6 @@ a{
 .slice-bullet {
     list-style-image: url('images/pie_icon.gif');
   }
-
-h1{
-    color: #A4A400 ;
-    background-color: #f0f0f0;
-    font-family: 'Lucida Sans', Helvetica,Arial, sans-serif;
-    font-weight: 22pt;
-    text-align: center;
-    text-decoration: underline;
-}
-.sub-heading{
-    color: #A4A400 ;
-    background-color: #f0f0f0;
-    font-family: 'Lucida Sans', Helvetica,Arial, sans-serif;
-    font-weight: 18pt;
-    text-align: left;
-    text-decoration: underline;
-
-}
 
 .bg {
     background-image: url("images/silverware.jpg");
