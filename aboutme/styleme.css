@@ -25,14 +25,11 @@ a{
     font-size: 25px;
   }
 
-.moviedesc{
+dt{
     color: yellow;
     font-weight: bold;
     font-size: 17px;
-    display: block;
 }
-.moviedescdetail{
-    text-indent: 20px;
-}
+
 
 
