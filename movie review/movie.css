@@ -18,8 +18,69 @@ body{
     text-align: center;
 }
 #mid-container{
+    position: relative;
     border: solid 4px gray;
     border-radius: 25px;
-    padding: 25px;
+    /* padding: 25px; */
     max-width: 800px;
+    margin: auto;
 }
+#validator{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: right;
+}
+#column1{
+    background-color:  #A2B964;
+    float: right;
+    width: 250px;
+    height: 100%;
+    overflow: auto;
+  }
+  #column2{
+    float: left;
+    width: 250px;
+    height: 100%;
+    overflow: auto;
+    padding-left: 10px;
+  }
+  #mid-container-header{
+      background-image: url("images/rbg.png");
+      background-repeat: repeat-x;
+      overflow: auto;
+  }
+  #mid-header-span{
+      font-size: 48pt;
+      color: red;
+      font-weight: bold;
+  }
+  #overview-image{
+      width: 100%;
+  }
+  dt{
+      font-weight: bold;
+      font-size: 8pt;
+      font-family: Arial, sans-serif;
+  }
+  #overview-bottom{
+        padding-left: 10pt;
+        height: 100%;
+  }
+  dd{
+      margin-bottom:  10pt;
+  }
+  ul{
+      list-style-type: none;
+      padding-left: 0;
+  }
+  .comments{
+      border: solid gray 2px;
+      border-radius: 10px;
+      overflow: auto;
+      padding: 8px;
+      font-weight: bold;
+      font-size: 8pt;
+      background-color: #E8DC9B;
+  }

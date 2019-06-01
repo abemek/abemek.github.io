@@ -1,59 +1,109 @@
-/* CSE 190 M, Spring 2008, Lab 2, Journal
-   A starter CSS file that gives basic styles to various elements
-   for aesthetic purposes. 
-   
-   NOTE: This file does NOT need changing for the lab.
-*/
-
-a {
-	color: #245F5F;
-	text-decoration: none;
+body{
+	background-image: url(http://mumstudents.org/cs472/2018-05-RS/common/css/bodybg.gif);
+	width:50%;
+	margin-right:10%;
+	margin-left:10%;
 }
 
-a:hover {
-	text-decoration: underline;
+.maindiv,.div2,.div3{
+	/*border-style: solid;
+	border-color:green;
+	border-width: 5px;*/
+	border: 10px solid white;
+	background-color: white;
+}
+.div1{	
+	
+	background-color: #A8F0F0;
+}
+.div1sub2 h2{	
+		
+	padding-left: 390px;
+	font-size: 14pt;
 }
 
-blockquote {
-	font-style: italic;
-}
-
-body {
-	font-family: "Georgia";
-	color: #009097;
-}
-
-
-h1, h2 {
-	font-weight: normal;
-	font-family: "Century Gothic";
-	margin: 3px;
-	padding: 0px;
-}
-
-img {
-	border-style: none;
+.div2,.div3{	
+	border:4px solid #C2E9E9 ;	
+	border-radius: 15px;
+	background-color: #E8FBFB;
 	padding: 5px;
+	margin-top: 10px;
 }
 
-ul {
-	padding-left: 10px;
-	margin: 2px 10px 2px 5px;
+/*.div3{	
+	border-color:blue;	
+}*/
+span.date{
+	
+	border-bottom: 2px dashed blue;
+	
+}
+.div1sub1 h1{
+	float: right;
+}
+.div1sub2 h2{
+	float: right;
+}
+.div1sub1:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.div1sub2:after{
+	content: "";
+	display: block;
+	clear: both;
 }
 
-.container{
-	border: solid green 5px;
-}
-.topdiv{
-	border: solid red 5px;
+.div2sub1:after{
+	content: "";
+	display: block;
+	clear: both;
 }
 
-#subtitle{
-	border: solid orange 5px;
+.div2sub1 img{
+	float:right;
 }
-.date{
-	border: solid purple 5px;
+.div2sub1 p{
+	text-align: justify;
 }
-.sub-block{
-	border: solid blue 5px;
+
+.div3sub1{
+	text-align: justify;
+}
+.div3sub1:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.div3sub1 img{
+	float:right;
+}
+
+.common{
+	float: left;
+	padding: 2%;
+}
+.second{
+	width: 15%;
+	border:5px solid #41BFAB;
+	border-radius: 14px;
+	margin-top: 25px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	background-color: #71EBD8;
+}
+.content{
+	width:75%;
+}
+.clearfix{
+	content: "";
+	display: block;
+	clear: left;
+}
+.maindiv{
+	content: "";
+	display: block;
+	clear: left;
 }
