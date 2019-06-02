@@ -5,6 +5,7 @@
    NOTE: This file does NOT need changing for the lab.
 */
 
+
 a {
 	color: #245F5F;
 	text-decoration: none;
@@ -42,18 +43,54 @@ ul {
 }
 
 .container{
-	border: solid green 5px;
+	border: solid white 10px;
 }
 .topdiv{
-	border: solid red 5px;
+	background-color: #A8F0F0;
+	text-align: right;
+	margin-bottom: 12px;
 }
 
+
 #subtitle{
-	border: solid orange 5px;
+	font-size: 14pt;
+	text-align: right;
 }
 .date{
-	border: solid purple 5px;
+	border-bottom: dashed #A8F0F0 2px;
 }
 .sub-block{
-	border: solid blue 5px;
+	border: solid #C2E9E9 4px;
+	border-radius: 15px;
+	margin-bottom: 12px;
+	padding-top: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	overflow: auto;
+	text-align: justify;
 }
+.image-float{
+	float: right;
+}
+.row{
+	content: "";
+	display: block;
+	clear: left;
+  }
+.column{
+	float: left;
+	padding: 2%;
+}
+.left {
+	width: 15%;
+	border:5px solid #41BFAB;
+	border-radius: 14px;
+	margin-top: 25px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	background-color: #71EBD8;
+  }
+  
+  .right {
+	width:75%;
+  }
