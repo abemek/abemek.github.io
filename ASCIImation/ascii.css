@@ -1,0 +1,31 @@
+body{
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold; 
+}
+#heading{
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+#textarea{
+   text-align: center;
+   font: 12pt bold monospace;
+}
+textarea{
+    width: 90%;
+    height: 400px;
+}
+fieldset{
+    border: 5px black solid; 
+    display: inline;    
+}
+#fieldsetprop{
+    text-align: center;
+}
+.validatoronside{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
