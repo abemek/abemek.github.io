@@ -1,10 +1,7 @@
 
 window.onload =  function(){
-    let displayElem = document.getElementById("display");
     let startbtnElem = document.getElementById("startbtn");
     let stopbtnElem = document.getElementById("stopbtn");
-    let animationsElem = document.getElementById("animation");
-    let sizeElem = document.getElementById("size");
     let speedElem = document.getElementById("speed");
     startbtnElem.onclick = start;
     stopbtnElem.onclick = stop;
@@ -74,10 +71,9 @@ function start(){
 }
 
 var control = {
-    'playing' : false,
     'delay' : 250,
-    'play' : function(a) { play =  setInterval(a, control.delay); control.playing = true;},
-    'stop' : function(){ clearInterval(play); control.playing = false;}
+    'play' : function(a) { play =  setInterval(a, control.delay);},
+    'stop' : function(){ clearInterval(play);}
 }
 
 function stop(){
