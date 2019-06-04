@@ -21,22 +21,11 @@ function animationselector(){
 
 document.addEventListener('input', function (event) {
     if (event.target.id !== 'animation') return;
-    if (event.target.value === 'BLANK') {
-		document.getElementById("display").value = "";
-	}
-	if (event.target.value === 'EXERCISE') {
-		document.getElementById("display").value = EXERCISE;
-	}
-	if (event.target.value === 'JUGGLER') {
-		document.getElementById("display").value = JUGGLER;
-	}
-	if (event.target.value === 'BIKE') {
-		document.getElementById("display").value = BIKE;
-    }
-    if (event.target.value === 'DIVE') {
-		document.getElementById("display").value = DIVE;
-	}
-
+    else if (event.target.value === 'BLANK') { document.getElementById("display").value = "";}
+	else if (event.target.value === 'EXERCISE') {document.getElementById("display").value = EXERCISE;}
+	else if (event.target.value === 'JUGGLER') {document.getElementById("display").value = JUGGLER;}
+	else if (event.target.value === 'BIKE') {document.getElementById("display").value = BIKE;}
+    else if (event.target.value === 'DIVE') {document.getElementById("display").value = DIVE;}
 }, false);
 
 
@@ -47,7 +36,7 @@ document.addEventListener('input', function (event) {
         control.stop();
         start();
     }
-    if (event.target.unchecked) {
+    else{
         control.delay = 250;
         control.stop();
         start();
@@ -57,25 +46,12 @@ document.addEventListener('input', function (event) {
 
 document.addEventListener('input', function (event) {
     if (event.target.id !== 'size') return;
-    if (event.target.value === '7pt') {
-		document.getElementById("display").style.fontSize = "7px";
-    }
-    if (event.target.value === '10pt') {
-        document.getElementById("display").style.fontSize = "10pt";
-	}
-	if (event.target.value === '12pt') {
-        document.getElementById("display").style.fontSize = "12pt";
-	}
-	if (event.target.value === '16pt') {
-        document.getElementById("display").style.fontSize = "16pt";
-	}
-	if (event.target.value === '24pt') {
-        document.getElementById("display").style.fontSize = "24pt";
-    }
-    if (event.target.value === '32pt') {
-        document.getElementById("display").style.fontSize = "32pt";
-	}
-
+    if (event.target.value === '7pt') {document.getElementById("display").style.fontSize = "7px";}
+    if (event.target.value === '10pt') {document.getElementById("display").style.fontSize = "10pt";}
+	if (event.target.value === '12pt') {document.getElementById("display").style.fontSize = "12pt";}
+	if (event.target.value === '16pt') {document.getElementById("display").style.fontSize = "16pt";}
+	if (event.target.value === '24pt') {document.getElementById("display").style.fontSize = "24pt";}
+    if (event.target.value === '32pt') {document.getElementById("display").style.fontSize = "32pt";}
 }, false);
 
 
