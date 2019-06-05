@@ -25,7 +25,6 @@
         for (let acct of accountInfoList) {
             acctstr += `Account: ${acct.getaccttype()}  Balance: ${acct.getdeposit()} \n`;
         }
-        console.log(acctstr);
         document.getElementById("textarea").value = acctstr;
     };
     window.onload = function () {
