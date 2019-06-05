@@ -1,0 +1,27 @@
+body{
+    background-color: #aabb97;
+}
+#container{
+    margin: 100px auto auto auto; 
+    width: 638px;
+    background-color: #dcedc8;
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin: 5px;
+}
+legend{
+    font-weight: bold;
+    font-size: 20pt;
+}
+#createaccbtn{
+    background-color: #2e7d32;
+    color: #ffffff;
+    font-size: 12pt;
+}
+#validation{
+    background-color: #aabb97;
+    text-align: right;
+}
