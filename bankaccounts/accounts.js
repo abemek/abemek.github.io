@@ -1,17 +1,17 @@
 (function () {
-    "use strict"
-    var accountInfoList = [];
+    "use strict";
+    let accountInfoList = [];
 
-    var create = (function () {
-        var createAcct = function () {
-            var accttype = document.getElementById("accountName").value;
-            var deposit = document.getElementById("deposit").value;
-            var getaccttype = function () { return accttype };
-            var getdeposit = function () { return deposit };
+    let create = (function () {
+        let createAcct = function () {
+            let accttype = document.getElementById("accountName").value;
+            let deposit = document.getElementById("deposit").value;
+            let getaccttype = function () { return accttype; };
+            let getdeposit = function () { return deposit; };
             return {
                 getaccttype: getaccttype,
                 getdeposit: getdeposit
-            }
+            };
         };
         return function () {
             accountInfoList.push(createAcct());
@@ -20,8 +20,8 @@
     })();
 
 
-    var displaytext = function () {
-        var acctstr = "";
+    let displaytext = function () {
+        let acctstr = "";
         for (let acct of accountInfoList) {
             acctstr += `Account: ${acct.getaccttype()}  Balance: ${acct.getdeposit()} \n`;
         }
@@ -30,5 +30,5 @@
     };
     window.onload = function () {
         document.getElementById("createaccbtn").onclick = create;
-    }
+    };
 })();
