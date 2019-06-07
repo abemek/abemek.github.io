@@ -54,6 +54,12 @@ div.boundary.example {
 	height: 25px;
 }
 
+.validatoronside{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 div.youlose {
 	background-color: #ff8888;
 }
