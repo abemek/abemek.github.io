@@ -3,6 +3,7 @@ package controller;
 import MockDB.MockDb;
 import model.User;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
@@ -53,8 +54,11 @@ public class Login extends HttpServlet {
                 session.setAttribute("uname", userName);
                 resp.sendRedirect("welcome.jsp");
             }else{
+                RequestDispatcher requestDispatcher = req.getRequestDispatcher("login.jsp");
                 error = "Username or Password is Incorrect!";
-                resp.sendRedirect("login.jsp");
+                req.setAttribute("error",error);
+                requestDispatcher.include(req,resp);
+
             }
         }
 

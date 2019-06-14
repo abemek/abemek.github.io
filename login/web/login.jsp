@@ -77,6 +77,7 @@
         }
         span{
             color: red;
+            padding-left: 100px;
         }
     </style>
 </head>
@@ -101,7 +102,6 @@
 <%--               checked="checked"--%>
 <%--        </c:if>--%>
         > Remember me
-        <br>
         <span>${error}</span>
     </label>
 </form>
